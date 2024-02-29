@@ -1,0 +1,51 @@
+*
+{
+
+  padding: 0;
+  margin: 0;
+}
+
+header, nav, footer, #contenedor
+{
+  width: 100%;
+
+}
+body
+{
+  height: 100vh;
+}
+header, footer
+{
+  height: 6%;
+  background: rgb(255, 71, 246);
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+nav
+{
+  height: 6%;
+  background: rgb(108, 127, 236);
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+#contenedor
+{
+  display: flex;
+  height: 75%;
+  justify-content: space-around;
+}
+article, section,aside
+{
+  height: 90%;
+}
+article,aside
+{
+  width: 20%;
+  background: skyblue;
+}
+section
+{
+  width: 50%;
+  background: rgb(241, 203, 96);
+
+}
