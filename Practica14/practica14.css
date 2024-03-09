@@ -1,0 +1,27 @@
+/* CSS Carina Medrano Cradenas */
+
+body {
+    font-size: 80px; /* Tamaño para el documento */
+    
+}
+
+.CuadroExterior {
+    width: 15em; /* Ancho relativo a la fuente raíz */
+    height: 15ex; /* Altura relativa */
+    background-color: rgb(182, 218, 230);
+    margin: 2rem; /* Margen relativo */
+    padding: 2vw; /* Relleno relativo al ancho de la ventana */
+}
+
+.CuadroInterior {
+    width: 90%;
+    height: 80%;
+    background-color: rgb(245, 149, 149);
+    padding: 3vmin; /* Relleno relativo, cuadro chico */
+    margin: 2vmax; /* Margen hacia el cuadro grande*/
+}
+
+p {
+    font-size: 1.5rem; /* Tamaño de texto*/
+    margin-bottom: 1vh; /* cantidad que separa entre letras */
+}
