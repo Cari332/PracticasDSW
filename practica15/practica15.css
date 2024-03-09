@@ -1,0 +1,45 @@
+/* CSS Carina Medrano Cradenas */
+/* Estilo para todos los elementos <li> que son hijos (child) del elemento <ul> */
+ul li:nth-child(odd) {
+    background-color: rgb(173, 216, 230);
+}
+
+/* Estilo para el último elemento <li> que es hijo (child) del elemento <ul> */
+ul li:nth-last-child(2) {
+    color: rgb(230, 154, 154);
+}
+
+/* Estilo para el primer elemento <li> que es hijo (child) del elemento <ul> */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* Estilo para el último elemento <li> que es hijo (child) del elemento <ul> */
+ul li:last-child {
+    text-decoration: underline;
+}
+
+/* Estilos para los enlaces sin visitar */
+a:link {
+    color: rgb(138, 138, 230);
+}
+
+/* Estilos para los enlaces visitados */
+a:visited {
+    color: rgb(231, 143, 231);
+}
+
+/* Estilos para los enlaces al pasar el mouse sobre ellos */
+a:hover {
+    background-color: rgb(144, 238, 144);
+}
+
+/* Estilos para los enlaces al estar activos */
+a:active {
+    color: rgb(241, 179, 179);
+}
+
+/* Estilos para los elementos que tienen el foco */
+input:focus {
+    border: 2px solid rgb(230, 113, 113);
+}
