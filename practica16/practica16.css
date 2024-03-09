@@ -1,0 +1,33 @@
+/* CSS Carina Medrano Cradenas */
+.contenedor{
+    width: 90%;
+    height: 100%;
+    margin: 10 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #6dc4ca;
+    border: 2px solid #c54040;
+    border-radius: 10px;
+}
+
+.Titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #db8484;
+}
+
+.contenido {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: justify;
+    color: #7b38b9;
+    border: 1px solid #4a128a;
+    border-radius: 5px;
+    padding: 10px;
+}
+p {
+    font-size: 1.5rem; /* Tamaño de texto*/
+    margin-bottom: 1vh; /* cantidad que separa entre letras */
+    color: #5d4674;
+}
