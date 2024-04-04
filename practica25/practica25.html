@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="practica25.js"></script>
+    <title>Practica 25</title>
+</head>
+<body>
+    <!---Medrano Cardenas Carina--->
+
+    <h1>Operaciones Matemáticas</h1>
+    <script>
+        // Función para solicitar números al usuario y realizar operaciones
+        function realizarOperacion() {
+            var a = parseFloat(prompt("Ingrese el primer número (a):"));
+            var b = parseFloat(prompt("Ingrese el segundo número (b):"));
+            var operacion = prompt("Ingrese la operación a realizar (sumar, restar, multiplicar, dividir, residuo):");
+
+            var resultado = OperacionesMatematicas(operacion, a, b);
+
+            alert("El resultado de la operación " + operacion + " entre " + a + " y " + b + " es: " + resultado);
+        }
+
+        // Llamar a la función cuando el documento esté listo
+        realizarOperacion();
+    </script>
+</body>
+</html>
