@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <link rel="stylesheet" href="7maravillas.css"> <!-- Enlace al css -->
+    <title>7 MARAVILLAS DEL MUNDO</title> <!-- Título del documento -->
+</head>
+<body> <!-- Cuerpo del documento -->
+    <!-- Carina Medrano Cardenas -->
+    <header>7 MARAVILLAS DEL MUNDO</header> <!-- Encabezado del documento -->
+    <h1>¿Qué Maravilla del mundo es?</h1> <!-- Encabezado de nivel 1 -->
+
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial"> <!-- División con identificador "pantalla-inicial" -->
+        <p>¿A qué maravilla pertenece la imagen?</p> <!-- Párrafo de texto -->
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button> <!-- Botón para iniciar el juego con función JavaScript asociada -->
+    </div>
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego"> <!-- División con clases "pantalla-juego" y "pantalla-juego" -->
+        <img src="img/chichen-itza.svg" alt="" id="imgMaravilla"> <!-- Imagen con ruta de origen y atributo alternativo -->
+        <div class="opciones"> <!-- División con clase "opciones" -->
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)"> <!-- División con clases "opcion" y "opcion", identificador "op0" y función asociada a clic -->
+                <div class="letra" id="l0">A</div> <!-- División con clases "letra" y "letra", identificador "l0" y contenido de texto -->
+                <div class="nombre" id="n0">OPCION A</div> <!-- División con clases "nombre" y "nombre", identificador "n0" y contenido de texto -->
+            </div>
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)"> <!-- División con clases "opcion" y "opcion", identificador "op1" y función asociada a clic -->
+                <div class="letra" id="l1">B</div> <!-- División con clases "letra" y "letra", identificador "l1" y contenido de texto -->
+                <div class="nombre" id="n1">OPCION B</div> <!-- División con clases "nombre" y "nombre", identificador "n1" y contenido de texto -->
+            </div>
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)"> <!-- División con clases "opcion" y "opcion", identificador "op2" y función asociada a clic -->
+                <div class="letra" id="l2">C</div> <!-- División con clases "letra" y "letra", identificador "l2" y contenido de texto -->
+                <div class="nombre" id="n2">OPCION C</div> <!-- División con clases "nombre" y "nombre", identificador "n2" y contenido de texto -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla final -->
+    <div id="pantalla-final"> <!-- División con identificador "pantalla-final" -->
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2> <!-- Encabezado de nivel 2 con contenido de texto y elemento de texto dinámico -->
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2> <!-- Encabezado de nivel 2 con contenido de texto y elemento de texto dinámico -->
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button> <!-- Botón para volver al inicio con función asociada -->
+    </div>
+
+    <script src="7maravillas.js"></script> <!-- Enlace al archivo JavaScript externo -->
+</body>
+</html>
